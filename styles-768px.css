@@ -1,0 +1,116 @@
+@media screen and (max-width: 1180px) {
+   .height-400 {
+      height: 300px;
+   }
+
+   #navigation-info {
+      select, a, button {
+         font-size: 16px;
+      }
+
+      button {
+         width: 90px;
+         height: 30px;
+      }
+
+      gap: 10px;
+   }
+
+   .more-content, #container {
+      margin: 0 60px;
+   }
+
+   .fontsize-57 {
+      font-size: 35px;
+   }
+
+   .landing-desc {
+      font-size: 16px;
+   }
+
+   .stat-text {
+      font-size: 16px;
+   }
+
+   .fontsize-40 {
+      font-size: 30px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+
+   .more-content, #container {
+      margin: 10px 20px;
+   }
+
+   #navigation-info {
+      display: none;
+   }
+
+   #media-navigation1 {
+      display: block;
+   }
+
+   #achieve-div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+
+      .stat {
+         border: none;
+         width: 90%;
+      }
+   }
+
+   #what-we-do {
+      display: flex;
+      flex-direction: column;
+   }
+
+   #portfolio-div {
+      display: flex;
+      flex-direction: column;
+   }
+
+   #learn-more-div {
+      flex-direction: column;
+   }
+
+   .height-400 {
+      height: 200px;
+   }
+
+   #middle-content {
+      flex-direction: column;
+      padding-top: 30px;
+   }
+
+   .learn-more-btn {
+      margin-top: 90px;
+   }
+
+   #footer {
+      flex-direction: column;
+      justify-content: center;
+
+      > div {
+         padding: 20px;
+         justify-content: center;
+      }
+   }
+
+   .bottom-nav {
+      max-width: none;
+      text-align: center;
+   }
+
+   #socials {
+      justify-content: center;
+   }
+
+   #get-started-btn {
+      width: 120px;
+      height: 50px;
+      font-size: 16px;
+   }
+}
